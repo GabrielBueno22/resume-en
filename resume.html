@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume of Gabriel da Silva Bueno</title>
+    <style>
+        body {
+            font-family: "Roboto Mono", monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 30px;
+            background-color: #3a3a3a; /* Dark background */
+            color: #e0e0e0; /* Light text color */
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #ffffff;
+        }
+        h2 {
+            color: #f5f5f5;
+        }
+        h3 {
+            color: #cccccc;
+        }
+        section {
+            margin-bottom: 30px;
+            background: #2a2a2a; /* Dark section background */
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .contact-info {
+            font-size: 0.9em;
+            color: #b0b0b0;
+        }
+        .contact-info img {
+            display: inline-block; /* Ensures the images are inline */
+            width: 30px; /* Icon size */
+            height: auto;
+            margin-right: 10px;
+            vertical-align: middle; /* Align icons with text */
+        }
+        .project {
+            padding: 15px;
+            background-color: #1e1e1e; /* Darker project background */
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .project img {
+            width: 40px; /* Adjust size as needed */
+            height: auto;
+            margin-right: 15px;
+        }
+        .project-header {
+            display: flex;
+            align-items: center; /* Align items vertically centered */
+            margin-bottom: 10px; /* Space below the header */
+        }
+        .project-logo {
+            width: 50px; /* Adjust the logo size as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 10px; /* Space between logo and title */
+        }
+        .screenshots {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .screenshots img {
+            width: 150px;
+            height: 300px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .collapsible {
+            background-color: #2a2a2a; /* Dark button background */
+            color: #ffffff; /* Light text color */
+            cursor: pointer;
+            padding: 10px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 16px;
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 5px; /* Rounded corners */
+            display: flex;
+            justify-content: space-between; /* Align items horizontally */
+            align-items: center; /* Center vertically */
+        }
+        .content {
+            padding: 25px;
+            display: none; /* Hidden by default */
+            overflow: hidden;
+            background-color: #1e1e1e; /* Darker content background */
+            border-radius: 5px;
+        }
+        .project img,
+        .screenshots img,
+        .project-logo {
+            border-radius: 5px; /* Adjust the value as needed */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gabriel Bueno</h1>
+    <h3>Mobile Developer</h3>
+    <p class="contact-info">
+        <a href="mailto:gbsilva990@gmail.com?subject=Orcamento&body=Hello, I would like to ask for a quote." target="_blank" style="color: #3a3a3a;">
+            <img src="email-icon-url.png" alt="Email Icon">
+        </a>
+        <a href="https://wa.me/5542999005151" target="_blank" style="color: #3a3a3a;">
+            <img src="whatsapp-icon-url.png" alt="WhatsApp Icon">
+        </a>
+        <a href="https://www.linkedin.com/in/gabriel-bueno-458a6719a/" target="_blank" style="color: #3a3a3a;">
+            <img src="linkedin-icon-url.png" alt="LinkedIn Icon">
+        </a>
+        <a href="https://github.com/GabrielBueno22" target="_blank" style="color: #3a3a3a;">
+            <img src="github-icon-url.png" alt="GitHub Icon">
+        </a>
+    </p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Engineer with over 4 years of experience in mobile application development. 
+        I specialize in Flutter but also have expertise in Java and Kotlin for Android. Throughout my 
+        career, I have contributed to various projects across different business scopes and team formats, 
+        demonstrating adaptability, mobile development expertise, and teamwork. 
+        I am seeking opportunities that allow me to expand and apply my skills to establish myself as a 
+        technical leader in mobile development.
+    </p>
+</section>
+
+<section>
+    
+    <button class="collapsible"><h2>Recent Projects</h2> <span>&#9662;</span></button>
+    <div>
+        <div class="project">
+        
+        <div>
+            <div class="project-header">
+                <img src="project1-icon1.png" alt="Project Title Logo" class="project-logo">
+                <img src="project1-icon2.png" alt="Project Title Logo" class="project-logo">
+                <img src="project1-icon3.png" alt="Project Title Logo" class="project-logo">
+                <h3>Stars Solution EV CHARGER</h3>
+            </div>
+            <p>Stars Solution EV CHARGER is a white-label application facilitating user access to electric vehicle charging points from contracted distributors. Users can initiate, monitor, and review charging sessions, including payment history, leveraging both free and paid charging options via credit or debit card integration.</p>
+            <p class="contact-info">
+                <a href="https://apps.apple.com/br/app/star-ev/id6739092172" target="_blank" style="color: #1e1e1e;">
+                    <img src="appstore-icon.png" alt="App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=br.com.starsolutions.starEvMobility" target="_blank" style="color: #1e1e1e;">
+                    <img src="playstore-icon-url.png" alt="Play Store Icon">
+                </a>
+            </p>
+            
+            <div class="screenshots">
+                <img src="./screenshots/project1-sc1.png" alt="Screenshot 1">
+                <img src="./screenshots/project1-sc2.png" alt="Screenshot 2">
+                <img src="./screenshots/project1-sc3.png" alt="Screenshot 3">
+                <img src="./screenshots/project1-sc4.png" alt="Screenshot 4">
+                <img src="./screenshots/project1-sc5.png" alt="Screenshot 5">
+                <img src="./screenshots/project1-sc6.png" alt="Screenshot 6">
+                <img src="./screenshots/project1-sc7.png" alt="Screenshot 6">
+            </div>
+            <p class="contact-info"></p>
+                <a href="https://apps.apple.com/br/app/ecos-solar-ev-charge/id6740142340" target="_blank" style="color: #1e1e1e;">
+                    <img src="appstore-icon.png" alt="App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=br.com.starsolutions.ecos_solar_mobility" target="_blank" style="color: #1e1e1e;">
+                    <img src="playstore-icon-url.png" alt="Play Store Icon">
+                </a>
+            </p>
+            
+            <div class="screenshots">
+                <img src="./screenshots/project1-sc8.png" alt="Screenshot 1">
+                <img src="./screenshots/project1-sc9.png" alt="Screenshot 2">
+                <img src="./screenshots/project1-sc10.png" alt="Screenshot 3">
+                <img src="./screenshots/project1-sc11.png" alt="Screenshot 4">
+                <img src="./screenshots/project1-sc12.png" alt="Screenshot 5">
+                <img src="./screenshots/project1-sc13.png" alt="Screenshot 6">
+                <img src="./screenshots/project1-sc14.png" alt="Screenshot 6">
+            </div>
+            <p class="contact-info"></p>
+                <a href="https://apps.apple.com/br/app/lavita-ev-charge/id6566170378" target="_blank" style="color: #1e1e1e;">
+                    <img src="appstore-icon.png" alt="App Store">
+                </a>
+                
+            </p>
+            
+            <div class="screenshots">
+                <img src="./screenshots/project1-sc15.avif" alt="Screenshot 1">
+                <img src="./screenshots/project1-sc16.avif" alt="Screenshot 2">
+                <img src="./screenshots/project1-sc17.avif" alt="Screenshot 3">
+                <img src="./screenshots/project1-sc18.avif" alt="Screenshot 4">
+                <img src="./screenshots/project1-sc19.avif" alt="Screenshot 5">
+            </div>
+        </div>
+    </div>
+
+    <div class="project">
+        
+        <div>
+            <div class="project-header">
+                <img src="project3-icon1.webp" alt="Project Title Logo" class="project-logo">
+                <h3>Lavita</h3>
+            </div>
+            <p>This franchise app supports solar energy system sales in Brazil by capturing client data, managing contracting workflows, facilitating document submission, and tracking sales commissions. It enables seamless client approval via a web interface, empowering companies to oversee the entire process.
+            </p>
+            <p class="contact-info">
+                <a href="https://apps.apple.com/br/app/lavita/id6476109775" target="_blank" style="color: #1e1e1e;">
+                    <img src="appstore-icon.png" alt="App Store">
+                </a>
+            </p>
+            
+            <div class="screenshots">
+                <img src="./screenshots/project3-sc1.avif" alt="Screenshot 1">
+                <img src="./screenshots/project3-sc2.avif" alt="Screenshot 2">
+                <img src="./screenshots/project3-sc3.avif" alt="Screenshot 3">
+                <img src="./screenshots/project3-sc4.avif" alt="Screenshot 4">
+                <img src="./screenshots/project3-sc5.avif" alt="Screenshot 5">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="project">
+        
+        <div>
+            <div class="project-header">
+                <img src="project2-icon1.jpg" alt="Project Title Logo" class="project-logo">
+                <h3>Método GAP</h3>
+            </div>
+            <p>GAP Method is an offline-first task and team management application designed for tracking task execution and capturing evidence through photos and videos. It supports efficient team collaboration and is integrated with a unified design system utilized across other applications within the company.
+                </p>
+            <p class="contact-info">
+                <a href="https://apps.apple.com/br/app/m%C3%A9todo-gap/id1526871238" target="_blank" style="color: #1e1e1e;">
+                    <img src="appstore-icon.png" alt="App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=br.com.gap.mobile.app&hl=pt_BR" target="_blank" style="color: #1e1e1e;">
+                    <img src="playstore-icon-url.png" alt="Google Play Store Icon">
+                </a>
+            </p>
+            
+            <div class="screenshots">
+                <img src="./screenshots/project2-sc1.jpg" alt="Screenshot 1">
+                <img src="./screenshots/project2-sc2.jpg" alt="Screenshot 2">
+                <img src="./screenshots/project2-sc3.jpg" alt="Screenshot 3">
+                <img src="./screenshots/project2-sc4.jpg" alt="Screenshot 4">
+                <img src="./screenshots/project2-sc5.jpg" alt="Screenshot 5">
+                <img src="./screenshots/project2-sc6.jpg" alt="Screenshot 6">
+                <img src="./screenshots/project2-sc7.jpg" alt="Screenshot 7">
+                
+            </div>
+        </div>
+    </div> </div>
+    
+</section>
+
+<!-- Collapsible Resume Section -->
+<section>
+    <button class="collapsible"><h2>Resume</h2> <span>&#9662;</span></button>
+    <div class="content">
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Flutter | Android | iOS | Jetpack Compose</li>
+                <li>Quarkus | Laravel | React</li>
+                <li>Dart | Java | Kotlin | PHP | JavaScript</li>
+                <li>ESP32 | Arduino (C++)</li>
+                <li>Firebase Services (Storage, Push Notifications, Crashlytics)</li>
+                <li>CI/CD | Clean Code | Clean Architecture | SOLID</li>
+            </ul>
+        </section>
+    
+        <section>
+            <h2>Professional Experience</h2>
+            <a href="https://www.gpssa.com.br" target="_blank">
+                <h3>Grupo GPS - Mobile Developer (08/2024 - )</h3>
+            </a>
+            <!-- <p class="contact-info">
+                <a href="https://play.google.com/store/apps/details?id=quadritech.qclassmobilev2&hl=pt_BR" target="_blank" style="color: #1e1e1e;">
+                    <img src="playstore-icon-url.png" alt="App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=quadritech.qclass_teorico_presencial_v2&hl=pt_BR" target="_blank" style="color: #1e1e1e;">
+                    <img src="playstore-icon-url.png" alt="WhatsApp Icon">
+                </a>
+            </p> -->
+            <ul>
+                <li>Led the design and development of new features for a forthcoming application, making strategic architectural and structural decisions to ensure seamless scalability and future growth</li>
+                <li>Developed and implemented CI/CD pipelines for automated application deployment, significantly streamlining the process of publishing company applications</li>
+                <li>Refactored app features so they apply to the new pattern to ensure seamless scalability and future growth</li>
+                <li>I participated in writing documentation and standardization for the company's Flutter projects, generating long-term impact on the company's mobile projects.</li>
+            </ul>
+    
+            
+            <a href="https://quadritech.com.br" target="_blank">
+                <h3>Quadritech Tecnologia S/A - Mobile Developer (05/2023 - 03/2024)</h3>
+            </a>
+            <!-- <p class="contact-info">
+                <a href="https://play.google.com/store/apps/details?id=quadritech.qclassmobilev2&hl=pt_BR" target="_blank" style="color: #1e1e1e;">
+                    <img src="playstore-icon-url.png" alt="App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=quadritech.qclass_teorico_presencial_v2&hl=pt_BR" target="_blank" style="color: #1e1e1e;">
+                    <img src="playstore-icon-url.png" alt="WhatsApp Icon">
+                </a>
+            </p> -->
+            <ul>
+                <li>Designed and led the implementation of new features in the practical lesson registration application for obtaining a driver’s license.</li>
+                <li>Acted as a technical leader in the mobile team, assisting other developers.</li>
+                <li>Implemented functionality for communication between Android and Flutter apps with the Secugen biometric reader.</li>
+                <li>Architected, planned, and developed a new application for identifying people through biometrics.</li>
+                <li>Created new functionalities in the company’s backend projects.</li>
+                <li>Worked on new functionalities for the front-end using React.</li>
+            </ul>
+
+            
+            <a href="https://www.trizy.com.br" target="_blank">
+                <h3>Trizy by Nstech - Mobile Developer (08/2021 - 12/2022)</h3>
+            </a>
+            <p class="contact-info">
+                <a href="https://play.google.com/store/apps/details?id=br.kmm.sinergia&hl=pt_BR" target="_blank" style="color: #1e1e1e;">
+                    <img src="playstore-icon-url.png" alt="App Store">
+                </a>
+                <a href="https://apps.apple.com/br/app/trizy/id1591619623" target="_blank" style="color: #1e1e1e;"></a>
+                    <img src="appstore-icon.png" alt="WhatsApp Icon">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=br.com.trizy.classificador&hl=pt_BR" target="_blank" style="color: #1e1e1e;">
+                    <img src="playstore-icon-url.png" alt="WhatsApp Icon">
+                </a>
+            </p>
+            
+            <ul>
+                <li>Worked on mobile application development using Flutter and Bloc.</li>
+                <li>Assisted in planning and executing a new Flutter application with over 100,000 downloads.</li>
+                <li>Created unit tests for Flutter applications.</li>
+                <li>Contributed to the creation and maintenance of the Flutter design system.</li>
+            </ul>
+    
+            <h3>Freelancer - Mobile Developer (05/2020 - Present)</h3>
+            <ul>
+                <li>Maintained Flutter applications, eliminating bugs and improving code quality.</li>
+                <li>Created new Flutter applications based on client requirements.</li>
+                <li>Developed a new UI for Flutter apps to enhance user experience.</li>
+                <li>Published apps on Android and iOS stores.</li>
+                <li>Implemented CI/CD for automated deployment.</li>
+                <li>Created flavors for white-label applications.</li>
+                <li>Integrated payment APIs for monetization.</li>
+            </ul>
+    
+            <h3>Yellowstech Technologies - Mobile/IOT Developer (09/2020 - 07/2021)</h3>
+            <ul>
+                <li>Worked on the entire development process of applications as the sole mobile developer.</li>
+                <li>Developed code for embedded systems integrated with applications.</li>
+                <li>Developed native Android code for communication with embedded systems.</li>
+            </ul>
+    
+            <a href="https://www.cartago.net.br/index.html#!/" target="_blank">
+                <h3>Cartago Tecnologia - Mobile Development Intern (02/2020 - 09/2020)</h3>
+             </a>
+            <ul>
+                <li>Added new functionalities and maintained Android applications.</li>
+                <li>Enabled communication of applications with peripherals.</li>
+                <li>Developed hybrid applications using Flutter.</li>
+            </ul>
+        </section>
+    
+        <section>
+            <h2>Education</h2>
+            <h3>Bachelor's Degree in Computer Engineering</h3>
+            <p>State University of Ponta Grossa (Mar 2016 - Apr 2021)</p>
+        </section>
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const collapsibles = document.querySelectorAll(".collapsible");
+        collapsibles.forEach(button => {
+            button.addEventListener("click", function() {
+                this.classList.toggle("active");
+                const content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                    this.querySelector("span").innerHTML = "&#9662;"; // Down arrow
+                } else {
+                    content.style.display = "block";
+                    this.querySelector("span").innerHTML = "&#9652;"; // Up arrow
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
